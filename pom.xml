@@ -9,7 +9,7 @@
     <java.version>11</java.version>
     <google.oauth-client.version>1.18.0-rc</google.oauth-client.version>
     <lombok.version>1.18.10</lombok.version>
-    <jackson.version>2.9.8</jackson.version>
+    <jackson.version>2.11.0</jackson.version>
   </properties>
   <parent>
     <groupId>org.springframework.boot</groupId>
