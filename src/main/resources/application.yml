@@ -1,0 +1,17 @@
+logging:
+  level:
+    root: INFO
+    org.interview: DEBUG
+
+twitter:
+  consumer-key: RLSrphihyR4G2UxvA0XBkLAdl
+  consumer-secret: FTz2KcP1y3pcLw0XXMX5Jy3GTobqUweITIFy4QefullmpPnKm4
+  stream:
+    endpoint: https://stream.twitter.com/1.1/statuses/filter.json
+    max-tweets: 100
+    max-time-elapsed-ms: 30000
+    filter-keyword: bieber
+
+output:
+  path: ./
+  filename: tweets.csv
